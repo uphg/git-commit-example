@@ -1,10 +1,11 @@
 {
   "name": "git-commit-example",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "index.js",
   "scripts": {
     "cz-init": "commitizen init cz-conventional-changelog --yarn --dev --exact",
-    "cz": "cz"
+    "cz": "cz",
+    "release": "standard-version"
   },
   "author": "uphg <2633565885@qq.com>",
   "license": "MIT",
@@ -13,7 +14,8 @@
     "@commitlint/config-conventional": "^14.1.0",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "3.3.0",
-    "husky": "^7.0.4"
+    "husky": "^7.0.4",
+    "standard-version": "^9.3.2"
   },
   "config": {
     "commitizen": {
