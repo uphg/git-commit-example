@@ -1,0 +1,1 @@
+console.log('添加 bar 模块')
